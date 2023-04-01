@@ -37,7 +37,7 @@ sp = spotipy.Spotify(
         scope=scope,
         client_id=settings.spotipy_client_id,
         client_secret=settings.spotipy_client_secret,
-        redirect_uri="http://localhost:5000",
+        redirect_uri="http://localhost:8080/callback",
         open_browser=False,
     )
 )
