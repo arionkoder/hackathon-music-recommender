@@ -85,7 +85,6 @@ async def base(request: RequestModel):
     answer = chat_completion.choices[0].message.content
 
     return {
-        # "tracks": tracks,
-        "tracks": None,
+        "tracks": tracks,
         "openia": answer,
     }
