@@ -6,7 +6,7 @@ pytest-asyncio==0.16.0
 python-dotenv==0.16.0
 python-jose==3.2.0
 requests==2.26.0
-urllib3==1.26.7
+urllib3==1.26.17
 uvicorn[standard]==0.18.2
 spotipy
 openai
